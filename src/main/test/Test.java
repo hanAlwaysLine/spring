@@ -41,6 +41,7 @@ public class Test {
             }
         }
         if (resultSet != null) {
+
             try {
                 resultSet.close();
             } catch (SQLException e) {
